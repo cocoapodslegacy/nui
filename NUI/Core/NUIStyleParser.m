@@ -7,8 +7,8 @@
 //
 
 #import "NUIStyleParser.h"
-#import "NUIParse.h"
-#import "NUIPTokeniser.h"
+#import <NUIParse/NUIParse.h>
+//#import "NUIPTokeniser.h"
 #import "NUITokeniserDelegate.h"
 #import "NUIParserDelegate.h"
 #import "NUIStyleSheet.h"

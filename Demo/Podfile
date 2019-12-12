@@ -1,8 +1,11 @@
 # 6.0 required for FBSnapshotTestCase
+source 'https://github.com/cocoapodslegacy/Specs.git'
+source 'https://github.com/CocoaPods/Specs.git'
+
 platform :ios, '6.0'
 
 target "NUIDemo" do
-  pod "NUIParse", :git => "https://github.com/tombenner/NUIParse"
+  pod "NUIParse", '=1.3'
 end
 
 target "NUITests" do
