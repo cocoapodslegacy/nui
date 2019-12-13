@@ -24,15 +24,12 @@
 		0E55162E1938D5FD00B293B7 /* UIBarButtonRendererBackgroundColorTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E55162D1938D5FD00B293B7 /* UIBarButtonRendererBackgroundColorTests.m */; };
 		0E5516301938D61300B293B7 /* UIBarButtonRendererBackgroundImageTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E55162F1938D61300B293B7 /* UIBarButtonRendererBackgroundImageTests.m */; };
 		0E5516321938D63300B293B7 /* NUIBarButtonSnapshotTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E5516311938D63300B293B7 /* NUIBarButtonSnapshotTests.m */; };
-		0E8A86B218EC07C40027F275 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4A0B8637165EE59A005B5756 /* Foundation.framework */; };
 		0E8A86B318EC07C40027F275 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4A0B8635165EE59A005B5756 /* UIKit.framework */; };
 		0E8A86B918EC07C40027F275 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 0E8A86B718EC07C40027F275 /* InfoPlist.strings */; };
 		0E8A86C318EC08970027F275 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0E8A86C218EC08970027F275 /* XCTest.framework */; };
 		0EE9CA7C191EC96D00C84934 /* TestTheme.NUI.nss in Resources */ = {isa = PBXBuildFile; fileRef = 0EE9CA7B191EC96D00C84934 /* TestTheme.NUI.nss */; };
 		0EE9CA7D191ECA0F00C84934 /* TestTheme.NUI.nss in Resources */ = {isa = PBXBuildFile; fileRef = 0EE9CA7B191EC96D00C84934 /* TestTheme.NUI.nss */; };
 		4A0B8636165EE59A005B5756 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4A0B8635165EE59A005B5756 /* UIKit.framework */; };
-		4A0B8638165EE59A005B5756 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4A0B8637165EE59A005B5756 /* Foundation.framework */; };
-		4A0B863A165EE59A005B5756 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4A0B8639165EE59A005B5756 /* CoreGraphics.framework */; };
 		4A0B8640165EE59A005B5756 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4A0B863E165EE59A005B5756 /* InfoPlist.strings */; };
 		4A0B8642165EE59A005B5756 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A0B8641165EE59A005B5756 /* main.m */; };
 		4A0B8646165EE59A005B5756 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A0B8645165EE59A005B5756 /* AppDelegate.m */; };
@@ -130,6 +127,19 @@
 		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		A4584C5F23A3283000E2EC80 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
 		0C92CB6AE440B2EB2BDA47AB /* Pods-NUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NUITests.release.xcconfig"; path = "Target Support Files/Pods-NUITests/Pods-NUITests.release.xcconfig"; sourceTree = "<group>"; };
 		0E55160F1938727100B293B7 /* background_image@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "background_image@2x.png"; sourceTree = "<group>"; };
@@ -151,12 +161,11 @@
 		0E8A86BC18EC07C40027F275 /* NUITests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NUITests-Prefix.pch"; sourceTree = "<group>"; };
 		0E8A86C218EC08970027F275 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		0EE9CA7B191EC96D00C84934 /* TestTheme.NUI.nss */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = TestTheme.NUI.nss; sourceTree = "<group>"; };
+		1122B1AFB4F9942A826F1D30 /* Pods-NUI.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NUI.release.xcconfig"; path = "Target Support Files/Pods-NUI/Pods-NUI.release.xcconfig"; sourceTree = "<group>"; };
 		1BE86389CD928544E5182D44 /* libPods-NUIDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-NUIDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3AE80CFA17E0EB290065FB3D /* NUIConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NUIConstants.h; sourceTree = "<group>"; };
 		4A0B8631165EE59A005B5756 /* NUIDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NUIDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4A0B8635165EE59A005B5756 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
-		4A0B8637165EE59A005B5756 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
-		4A0B8639165EE59A005B5756 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		4A0B863D165EE59A005B5756 /* NUIDemo-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "NUIDemo-Info.plist"; sourceTree = "<group>"; };
 		4A0B863F165EE59A005B5756 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		4A0B8641165EE59A005B5756 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -258,6 +267,9 @@
 		89B940451671418100850A9A /* NUIViewRenderer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NUIViewRenderer.m; sourceTree = "<group>"; };
 		89B940461671418100850A9A /* NUIStyle.nss */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = NUIStyle.nss; sourceTree = "<group>"; };
 		89B9404A1671418100850A9A /* NUIViewBackground.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = NUIViewBackground.png; sourceTree = "<group>"; };
+		93AEBF775A849FEE10541865 /* Pods-NUI.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NUI.debug.xcconfig"; path = "Target Support Files/Pods-NUI/Pods-NUI.debug.xcconfig"; sourceTree = "<group>"; };
+		A4584CE723A328F100E2EC80 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/CoreGraphics.framework; sourceTree = DEVELOPER_DIR; };
+		A4584CF023A32E7600E2EC80 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		AE2F76FA8A259218994B13CD /* Pods-NUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NUITests.debug.xcconfig"; path = "Target Support Files/Pods-NUITests/Pods-NUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		B51BC288169724A3004A38F8 /* UISwitch+NUI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UISwitch+NUI.h"; sourceTree = "<group>"; };
 		B51BC289169724A3004A38F8 /* UISwitch+NUI.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UISwitch+NUI.m"; sourceTree = "<group>"; };
@@ -318,7 +330,6 @@
 			files = (
 				0E8A86C318EC08970027F275 /* XCTest.framework in Frameworks */,
 				0E8A86B318EC07C40027F275 /* UIKit.framework in Frameworks */,
-				0E8A86B218EC07C40027F275 /* Foundation.framework in Frameworks */,
 				C57D5B46DB71A944A0A6C659 /* libPods-NUITests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -330,8 +341,6 @@
 				4A4FC6341663141D0058031B /* CoreImage.framework in Frameworks */,
 				4A0B8681165EE917005B5756 /* QuartzCore.framework in Frameworks */,
 				4A0B8636165EE59A005B5756 /* UIKit.framework in Frameworks */,
-				4A0B8638165EE59A005B5756 /* Foundation.framework in Frameworks */,
-				4A0B863A165EE59A005B5756 /* CoreGraphics.framework in Frameworks */,
 				60727B06E98FBCC4BDC12818 /* libPods-NUIDemo.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -428,12 +437,12 @@
 		4A0B8634165EE59A005B5756 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				A4584CF023A32E7600E2EC80 /* Foundation.framework */,
+				A4584CE723A328F100E2EC80 /* CoreGraphics.framework */,
 				0E8A86C218EC08970027F275 /* XCTest.framework */,
 				4A4FC62016629C4D0058031B /* CoreImage.framework */,
 				4A0B8680165EE917005B5756 /* QuartzCore.framework */,
 				4A0B8635165EE59A005B5756 /* UIKit.framework */,
-				4A0B8637165EE59A005B5756 /* Foundation.framework */,
-				4A0B8639165EE59A005B5756 /* CoreGraphics.framework */,
 				1BE86389CD928544E5182D44 /* libPods-NUIDemo.a */,
 				E310AFA51E6A77D1E26E67BD /* libPods-NUITests.a */,
 			);
@@ -500,6 +509,8 @@
 				E65F7A305A610F0093EFEACA /* Pods-NUIDemo.release.xcconfig */,
 				AE2F76FA8A259218994B13CD /* Pods-NUITests.debug.xcconfig */,
 				0C92CB6AE440B2EB2BDA47AB /* Pods-NUITests.release.xcconfig */,
+				93AEBF775A849FEE10541865 /* Pods-NUI.debug.xcconfig */,
+				1122B1AFB4F9942A826F1D30 /* Pods-NUI.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -706,6 +717,7 @@
 				4A0B862D165EE59A005B5756 /* Sources */,
 				4A0B862E165EE59A005B5756 /* Frameworks */,
 				4A0B862F165EE59A005B5756 /* Resources */,
+				A4584C5F23A3283000E2EC80 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -1105,6 +1117,7 @@
 				GCC_PREFIX_HEADER = "NUIDemo/NUIDemo-Prefix.pch";
 				INFOPLIST_FILE = "NUIDemo/NUIDemo-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -1120,6 +1133,7 @@
 				GCC_PREFIX_HEADER = "NUIDemo/NUIDemo-Prefix.pch";
 				INFOPLIST_FILE = "NUIDemo/NUIDemo-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
